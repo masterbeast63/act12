@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quotations </title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 8px 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  overflow: auto;
+  background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+  animation: gradient 75s ease infinite;
+  background-size: 200% 200%;
+  background-attachment: fixed;
+  overflow: auto;
+  background-image: url(BACKGROUND1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.wrapper {
+  position: relative;
+}
+.container {
+  display: inline-block;
+  width:85%;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.side-title {
+  width: 180px;
+  height: 100vh;
+  border-style: solid;
+  position: fixed;
+  margin: 0 0;
+  padding: 0 0;
+  background-color: black;
+  opacity: .96;
+  color: rgba(0, 0, 0, 0.5);
+  background-image: url(BACKGROUND.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.side-title h1 {
+  text-shadow: 3px 4px rgb(247, 220, 111), -1em 0 0.4em rgb(255, 255, 255);
+  font-size: 60px;
+  font-weight: bold;
+  position: absolute;
+  margin: 0 0;
+  bottom: 0;
+  left: 0;
+  margin-left: 37px;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+    
+
+  background-image: linear-gradient(
+  -225deg,
+
+);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 5s linear infinite;
+display: inline-block;
+}
+.quoteContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  grid-auto-rows: 300px;
+  grid-auto-columns: 300px;
+  margin-left:200px;
+}
+.div-quote {
+  overflow: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  opacity: .8; 
+  box-shadow: 1px 1px rgb(0, 0, 0), -1em 0 0.4em rgb(248, 248, 248);
+}
+em {
+  line-height: 33px;
+  color: rgb(255, 255, 255);
+  font-size: clamp(1rem, 1.5vw, 1.1rem);
+}
+span {
+  font-size: 50px;
+  font-family: Courier New;
+}
+.quote-and-quote {
+  font-size: 30px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 23px;
+  color:rgb(208, 208, 208);
+  font-family: Courier New;
+}
+h3:hover {
+  font-weight: bold;
+  font-size: 23px;
+  color: rgb(241, 196, 15);
+}
+.fa {
+  width: 50px;
+  color: rgb(255, 255, 255);
+}
+.w3-xxlarge {
+  display: inline-block;
+  position: fixed;
+  bottom: 10px;
+  z-index:1;
+  margin-left: 37px;
+  text-align: center;
+}
+span {
+  font-size: 50px;
+  color: rgb(93, 173, 226);
+}
+em::before {
+  content:open-quote;
+  color: rgb(142, 68, 173);
+  font-size: 2em;
+  font-family: Courier New;
+}
+em::after {
+  content:close-quote;
+  color: rgb(142, 68, 173);
+  font-size: 2em;
+  font-family: Courier New;
+}
+</style>
+</head>
+<body>
+  <div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+ </div>
+  <div class="wrapper">
+    <div class="container">
+      <div class="w3-xxlarge">
+        <a href="index.html" target="_top"><i class="fa fa-home" title="Home"></i></a> 
+       </div> 
+      <div class="side-title">
+        <h1>POINTS&nbsp;TO&nbsp;PONDER</h1>
+      </div>
+      <div class="quoteContainer">
+          <div class="div-quote">
+                <em>
+                  <span>T</span>he he future belongs to those who believe in the beauty of their dreams.
+                </em> 
+                
+                <h3>Eleanor Roosevelt</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                  <span>S</span>uccess is not final, failure is not fatal: It is the courage to continue that counts.
+              </em> 
+                
+                <h3>Winston Churchill.</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                  <span>B</span>elieve you can and you're halfway there.
+              </em> 
+              
+              <h3>Theodore Roosevelt</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                  <span>T</span>he only way to do great work is to love what you do.
+              </em> 
+                
+                <h3>Steve Jobs</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                  <span>D</span>on't watch the clock; do what it does. Keep going.
+              </em> 
+                
+                <h3>Sam Levenson</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                  <span>Y</span>ou are never too old to set another goal or to dream a new dream.
+                </em> 
+                
+                <h3>C.S. Lewis</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                  <span>T</span>he harder you work for something, the greater you'll feel when you achieve it.
+              </em> 
+                
+                <h3>Unknown</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>S</span>uccess is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.
+              </em> 
+                
+                <h3>Albert Schweitzer</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+               <span>Y</span>ou miss 100% of the shots you don't take.
+              </em> 
+                
+                <h3>Wayne Gretzky</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+               <span>T</span>he best revenge is massive success.
+              </em> 
+                
+                <h3>Frank Sinatra</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+               <span>T</span>he future depends on what you do today.
+              </em> 
+                
+                <h3>Mahatma Gandhi</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>D</span>on't be pushed around by the fears in your mind. Be led by the dreams in your heart.
+              </em> 
+                
+                <h3>Roy T. Bennett</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>T</span>he only limit to our realization of tomorrow will be our doubts of today.
+              </em> 
+                
+                <h3> Franklin D. Roosevelt </h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>Y</span>our time is limited, don't waste it living someone else's life.
+              </em> 
+                
+                <h3>Steve Jobs</h3>
+          </div>
+          <div class="div-quote">
+                <em>
+                  <span>T</span>he road to success and the road to failure are almost exactly the same.
+              </em> 
+                
+                <h3>Colin R. Davis</h3>
+          </div>
+          <div class="div-quote">
+                <em>
+                  <span>I</span>f at first, you don't succeed, maybe you're just not that great.
+              </em> 
+                
+                <h3>Unknown</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>D</span>t be afraid to give up the good to go for the great.
+              </em> 
+                
+                <h3>John D. Rockefeller</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>T</span>he secret of getting ahead is getting started.
+              </em> 
+                
+                <h3>Mark Twain</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>T</span>he The future belongs to those who believe in the beauty of their dreams.
+              </em> 
+                
+                <h3>Ralph Waldo Emerson</h3>
+          </div>
+          <div class="div-quote">
+              <em>
+                <span>B</span>elieve in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.
+              </em> 
+                
+                <h3>Christian D. Larson</h3>
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
